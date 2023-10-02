@@ -1,0 +1,1 @@
+static libraries month1
