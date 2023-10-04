@@ -13,7 +13,7 @@ char *str, *temp;
 int nz, z, ts;
 
 if (ac == 0 || av == NULL)
-		return (NULL);
+	return (NULL);
 ts = 0;
 for (nz = 0; nz < ac; nz++)
 {
