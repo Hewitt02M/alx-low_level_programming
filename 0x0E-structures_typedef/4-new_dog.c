@@ -27,12 +27,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *gshrpd;
 int nz, b;
-
+{
 for (nz = 0; name[nz]; nz++)
-		;
+
 for (b = 0; owner[b]; b++)
 		;
-
+}
 gshrpd = malloc(sizeof(dog_t));
 if (!gshrpd)
 return (NULL);
